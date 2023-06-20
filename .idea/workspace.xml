@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b916fa91-5a5c-4080-8bd4-ed0cd05b89cf" name="Changes" comment="Inicio de proyecto.">
-      <change afterPath="$PROJECT_DIR$/ACapybaraPlaying.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/utils/MessageUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/utils/ScreenLoader.java" afterDir="false" />
+    <list default="true" id="b916fa91-5a5c-4080-8bd4-ed0cd05b89cf" name="Changes" comment="Navegación entre login y registro.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/MessagesFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/MessagesFX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/augusto/hernandez/messagesfx/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/augusto/hernandez/messagesfx/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/Messages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/Messages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/augusto/hernandez/messagesfx/messages.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/augusto/hernandez/messagesfx/messages.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/augusto/hernandez/messagesfx/register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/augusto/hernandez/messagesfx/register.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,12 +99,20 @@
       <option name="project" value="LOCAL" />
       <updated>1687260185318</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Navegación entre login y registro.">
+      <created>1687278243623</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687278243623</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Inicio de proyecto." />
-    <option name="LAST_COMMIT_MESSAGE" value="Inicio de proyecto." />
+    <MESSAGE value="Navegación entre login y registro." />
+    <option name="LAST_COMMIT_MESSAGE" value="Navegación entre login y registro." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

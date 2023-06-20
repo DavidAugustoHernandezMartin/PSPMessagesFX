@@ -27,6 +27,13 @@ public class Login {
 
     @FXML
     public void login(ActionEvent actionEvent) {
+        Stage stage = (Stage)((Node)actionEvent.getSource()).getScene().getWindow();
+        try {
+            ScreenLoader.loadScreen("/augusto/hernandez/messagesfx/messages.fxml", stage);
+        } catch (Exception e) {
+            MessageUtils.showError("Ocurrió un error al intentar iniciar la aplicación: "+e.getMessage());
+            System.err.println(e.getLocalizedMessage());
+        }
     }
 
     public void registro(ActionEvent actionEvent) {

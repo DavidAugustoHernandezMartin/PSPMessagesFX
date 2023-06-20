@@ -41,12 +41,12 @@
         <HBox prefHeight="70.0" prefWidth="385.0">
             <Label prefHeight="59.0" prefWidth="155.0" text="Password:">
                 <font>
-                    <Font size="24.0"/>
+                    <Font size="24.0" />
                 </font>
             </Label>
             <PasswordField fx:id="textfieldPasswordRepeatRegister" prefHeight="44.0" prefWidth="340.0">
                 <HBox.margin>
-                    <Insets top="10.0"/>
+                    <Insets top="10.0" />
                 </HBox.margin>
             </PasswordField>
         </HBox>
@@ -66,9 +66,8 @@
          <Font size="18.0" />
       </font>
    </Button>
-    <ImageView fitHeight="182.0" fitWidth="217.0" layoutX="570.0" layoutY="86.0" pickOnBounds="true"
-               preserveRatio="true">
-        <Image url="@../../../../../../ACapybaraPlaying.jpg"/>
+    <ImageView fitHeight="182.0" fitWidth="217.0" layoutX="570.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../../../../../../ACapybaraPlaying.jpg" />
     </ImageView>
     
 </AnchorPane>
