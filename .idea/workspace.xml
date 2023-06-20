@@ -4,37 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b916fa91-5a5c-4080-8bd4-ed0cd05b89cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/Messages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/MessagesFX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/Register.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/LoginResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/MessageResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/MessagesResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/OkResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/UserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/UsersResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/augusto/hernandez/messagesfx/login.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/augusto/hernandez/messagesfx/messages.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/augusto/hernandez/messagesfx/register.fxml" afterDir="false" />
+    <list default="true" id="b916fa91-5a5c-4080-8bd4-ed0cd05b89cf" name="Changes" comment="Inicio de proyecto.">
+      <change afterPath="$PROJECT_DIR$/ACapybaraPlaying.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/utils/MessageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/utils/ScreenLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/MessagesFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/MessagesFX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/augusto/hernandez/messagesfx/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/augusto/hernandez/messagesfx/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/augusto/hernandez/messagesfx/register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/augusto/hernandez/messagesfx/register.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,20 +55,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_directory_selection&quot;: &quot;/home/augusto/TrabajosRestantesFP/PSP/MessagesFX/MessagesFX/src/main/java/augusto/hernandez/messagesfx&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.54022986&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_directory_selection": "/home/augusto/TrabajosRestantesFP/PSP/MessagesFX/MessagesFX/src/main/java/augusto/hernandez/messagesfx",
+    "last_opened_file_path": "/home/augusto/TrabajosRestantesFP/PSP/MessagesFX/MessagesFX",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.54022986",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
@@ -111,6 +97,33 @@
       <option name="presentableId" value="Default" />
       <updated>1687252240696</updated>
     </task>
+    <task id="LOCAL-00001" summary="Inicio de proyecto.">
+      <created>1687260185318</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687260185318</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Inicio de proyecto." />
+    <option name="LAST_COMMIT_MESSAGE" value="Inicio de proyecto." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/utils/ScreenLoader.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -7,4 +7,6 @@ module augusto.hernandez.messagesfx {
 
     opens augusto.hernandez.messagesfx to javafx.fxml;
     exports augusto.hernandez.messagesfx;
+    opens augusto.hernandez.messagesfx.utils to javafx.fxml;
+    exports augusto.hernandez.messagesfx.utils;
 }
