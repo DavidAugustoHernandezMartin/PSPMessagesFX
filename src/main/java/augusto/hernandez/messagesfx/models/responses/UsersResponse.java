@@ -1,4 +1,9 @@
 package augusto.hernandez.messagesfx.models.responses;
 
-public class UsersResponse {
+import augusto.hernandez.messagesfx.models.User;
+
+import java.util.List;
+
+public class UsersResponse extends OkResponse<ErrorResponse>{
+    private List<User> users;
 }

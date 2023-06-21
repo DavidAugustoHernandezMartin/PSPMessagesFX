@@ -1,4 +1,9 @@
 package augusto.hernandez.messagesfx.models.responses;
 
-public class OkResponse {
+import java.util.Optional;
+
+public abstract class OkResponse<T> {
+    public boolean ok;
+    public T error;
 }
+

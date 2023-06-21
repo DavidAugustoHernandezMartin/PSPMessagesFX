@@ -2,13 +2,17 @@ package augusto.hernandez.messagesfx;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextArea;
 import javafx.scene.image.ImageView;
 
-public class Messages {
+import java.net.URL;
+import java.util.ResourceBundle;
+
+public class Messages implements Initializable {
     @FXML
     protected ImageView imageviewProfile;
     @FXML
@@ -32,6 +36,11 @@ public class Messages {
     @FXML
     protected TableView tableviewUsers;
 
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+        // TODO Aquí hay que ver como gestionamos la carga de datos.
+
+    }
     @FXML
     protected void selectMessageImage(ActionEvent actionEvent) {
     }

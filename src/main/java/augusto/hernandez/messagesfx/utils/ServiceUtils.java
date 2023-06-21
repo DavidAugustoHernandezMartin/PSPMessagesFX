@@ -8,11 +8,36 @@ import java.util.zip.GZIPInputStream;
 
 public class ServiceUtils {
     private static String token = null;
+    private static String username = null;
+    private  static  String image = null;
+
+    public static String getToken() {
+        return token;
+    }
+
+    public static String getUsername() {
+        return username;
+    }
+
+    public static String getImage() {
+        return image;
+    }
+    public static String server = "http://localhost:3000";
     public static void setToken(String token) {
         ServiceUtils.token = token;
     }
+
+    public static void setUsername(String username){ServiceUtils.username = username;}
+    public static void setImage(String image){ServiceUtils.image = image;}
+
     public static void removeToken() {
         ServiceUtils.token = null;
+    }
+    public static void removeUsername(){
+        ServiceUtils.username = null;
+    }
+    public static void removeImage(){
+        ServiceUtils.image =null;
     }
     public static String getCharset(String contentType) {
         for (String param : contentType.replace(" ", "").split(";")) {

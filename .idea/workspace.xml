@@ -4,10 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b916fa91-5a5c-4080-8bd4-ed0cd05b89cf" name="Changes" comment="Estructura general terminada.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/utils/ServiceUtils.java" afterDir="false" />
+    <list default="true" id="b916fa91-5a5c-4080-8bd4-ed0cd05b89cf" name="Changes" comment="Agregación de ServiceUtils">
+      <change afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/DeleteMessageResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/RegisterResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/UpdateUserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/utils/GsonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/utils/NetworkService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/augusto/hernandez/messagesfx/messages.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/augusto/hernandez/messagesfx/messages.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/Messages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/Messages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/LoginResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/LoginResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/MessageResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/SendMessageResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/MessagesResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/MessagesResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/OkResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/OkResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/UserResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/UsersResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/UsersResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/utils/ServiceUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/utils/ServiceUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,21 +65,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_directory_selection": "/home/augusto/TrabajosRestantesFP/PSP/MessagesFX/MessagesFX/src/main/java/augusto/hernandez/messagesfx",
-    "last_opened_file_path": "/home/augusto/TrabajosRestantesFP/PSP/MessagesFX/MessagesFX",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.54022986",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_directory_selection&quot;: &quot;/home/augusto/TrabajosRestantesFP/PSP/MessagesFX/MessagesFX/src/main/java/augusto/hernandez/messagesfx&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/augusto/TrabajosRestantesFP/PSP/MessagesFX/MessagesFX&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.54022986&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -111,14 +128,22 @@
       <option name="project" value="LOCAL" />
       <updated>1687283811970</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Agregación de ServiceUtils">
+      <created>1687285273645</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687285273645</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Inicio de proyecto." />
     <MESSAGE value="Navegación entre login y registro." />
     <MESSAGE value="Estructura general terminada." />
-    <option name="LAST_COMMIT_MESSAGE" value="Estructura general terminada." />
+    <MESSAGE value="Agregación de ServiceUtils" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregación de ServiceUtils" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
