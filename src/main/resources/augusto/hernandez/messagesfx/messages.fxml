@@ -26,7 +26,7 @@
       </font>
    </TextArea>
    <ImageView fx:id="imageviewMessage" fitHeight="118.0" fitWidth="152.0" layoutX="527.0" layoutY="678.0" pickOnBounds="true" preserveRatio="true">
-      <Image url="@../../../../../../ACapybaraPlaying.jpg" />
+      <Image url="@img/ACapybaraPlaying.jpg" />
    </ImageView>
    <Button fx:id="buttonSelectMessageImage" disable="true" layoutX="525.0" layoutY="804.0" mnemonicParsing="false" onAction="#selectMessageImage" prefHeight="49.0" prefWidth="152.0" text="Select image" />
    <Button fx:id="buttonSendMessage" disable="true" layoutX="757.0" layoutY="713.0" mnemonicParsing="false" onAction="#sendMessage" prefHeight="49.0" prefWidth="152.0" style="-fx-background-color: lightblue;" text="Send message" />
@@ -54,7 +54,7 @@
       </font>
    </Label>
    <ImageView fx:id="imageviewProfile" fitHeight="118.0" fitWidth="152.0" layoutX="67.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
-      <Image url="@../../../../../../ACapybaraPlaying.jpg" />
+      <Image url="@img/ACapybaraPlaying.jpg" />
    </ImageView>
    <Label layoutX="395.0" layoutY="98.0" text="Your messages">
       <font>

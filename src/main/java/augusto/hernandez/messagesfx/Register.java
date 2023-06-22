@@ -4,27 +4,36 @@ import augusto.hernandez.messagesfx.utils.MessageUtils;
 import augusto.hernandez.messagesfx.utils.ScreenLoader;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.net.URL;
+import java.util.Objects;
+import java.util.ResourceBundle;
 
-public class Register {
+public class Register implements Initializable {
     @FXML
-    public TextField textfieldUserRegister;
+    protected TextField textfieldUserRegister;
     @FXML
-    public PasswordField textfieldPasswordRegister;
+    protected PasswordField textfieldPasswordRegister;
     @FXML
-    public PasswordField textfieldPasswordRepeatRegister;
+    protected PasswordField textfieldPasswordRepeatRegister;
     @FXML
-    public Button buttonCancelRegistration;
+    protected Button buttonCancelRegistration;
     @FXML
-    public Button buttonRegistration;
+    protected Button buttonRegistration;
     @FXML
-    public Button buttonSelectImageRegister;
+    protected Button buttonSelectImageRegister;
+    @FXML
+    protected ImageView imageviewRegister;
+
 
     @FXML
     protected void cancelRegistration(ActionEvent actionEvent) {
@@ -59,5 +68,10 @@ public class Register {
 
     @FXML
     protected void selectImageRegister(ActionEvent actionEvent) {
+    }
+
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+        imageviewRegister.setImage(new Image(Objects.requireNonNull(getClass().getResourceAsStream("img/ACapybaraPlaying.jpg"))));
     }
 }

@@ -40,30 +40,33 @@ public class Login {
             service.setOnSucceeded((event)->{
                 String result = service.getValue();
                 LoginResponse response = GsonService.gson.fromJson(result,LoginResponse.class);
-                if(response.ok) {
+                if(response != null && response.ok) {
                     try {
                         ServiceUtils.setToken(response.getToken());
                         ServiceUtils.setUsername(response.getName());
                         ServiceUtils.setImage(response.getImage());
                         ScreenLoader.loadScreen("/augusto/hernandez/messagesfx/messages.fxml", stage);
-                        MessageUtils.showMessage("datos de login obtenidos.\nToken: " + response.getToken());
+                        MessageUtils.showMessage("Welcome "+response.getName()+"!");
                     } catch (IOException e) {
                         throw new RuntimeException(e);
                     }
-                } else {
-                    MessageUtils.showError("Falló de inicio de sesión:\n "+response.error);
+                } else if(response != null) {
+                    MessageUtils.showError("Login failed:\n "+response.error);
+                    buttonLogin.setDisable(false);
+                }else {
+                    MessageUtils.showError("Connection to server failed.");
                     buttonLogin.setDisable(false);
                 }
             });
             service.setOnFailed((event)-> {
-                MessageUtils.showError("Falló la aplicación al intentar el inicio de sesión.");
+                MessageUtils.showError("Failure during session login aptempt.");
                 buttonLogin.setDisable(false);
             });
             service.start();
         } catch (Exception e) {
             ServiceUtils.removeToken();
             ServiceUtils.removeUsername();
-            MessageUtils.showError("Ocurrió un error al intentar iniciar la aplicación: "+e.getMessage());
+            MessageUtils.showError("An error ocurred while trying to initialize the application: "+e.getMessage());
             System.err.println(e.getLocalizedMessage());
         }
     }
@@ -74,7 +77,7 @@ public class Login {
             ScreenLoader.loadScreen("/augusto/hernandez/messagesfx/register.fxml", stage);
         } catch (IOException e) {
             MessageUtils.showError("Ocurrió un error al intentar el registro: "+e.getMessage());
-            System.err.println(e.getLocalizedMessage());
+            e.printStackTrace();
         } catch (NullPointerException n){
             MessageUtils.showError("Ocurrió un error el intentar cargar los datos: "+n.getMessage());
             n.printStackTrace();

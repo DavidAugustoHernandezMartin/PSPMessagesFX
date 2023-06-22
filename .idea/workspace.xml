@@ -4,27 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b916fa91-5a5c-4080-8bd4-ed0cd05b89cf" name="Changes" comment="Agregación de ServiceUtils">
-      <change afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/DeleteMessageResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/ErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/RegisterResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/UpdateUserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/utils/GsonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/utils/NetworkService.java" afterDir="false" />
+    <list default="true" id="b916fa91-5a5c-4080-8bd4-ed0cd05b89cf" name="Changes" comment="Lógica de obtención de datos remotos completada en login.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACapybaraPlaying.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/augusto/hernandez/messagesfx/img/ACapybaraPlaying.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/Messages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/Messages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/LoginResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/LoginResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/MessageResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/SendMessageResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/MessagesResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/MessagesResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/OkResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/OkResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/UserResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/UsersResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/UsersResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/utils/ServiceUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/utils/ServiceUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/augusto/hernandez/messagesfx/messages.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/augusto/hernandez/messagesfx/messages.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/augusto/hernandez/messagesfx/register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/augusto/hernandez/messagesfx/register.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +71,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/augusto/hernandez/messagesfx/img" />
+      <recent name="$PROJECT_DIR$/src/main/resources/augusto/hernandez/messagesfx" />
+      <recent name="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
@@ -135,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1687285273645</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lógica de obtención de datos remotos completada en login.">
+      <option name="closed" value="true" />
+      <created>1687378036637</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687378036637</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -143,7 +143,8 @@
     <MESSAGE value="Navegación entre login y registro." />
     <MESSAGE value="Estructura general terminada." />
     <MESSAGE value="Agregación de ServiceUtils" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agregación de ServiceUtils" />
+    <MESSAGE value="Lógica de obtención de datos remotos completada en login." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lógica de obtención de datos remotos completada en login." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

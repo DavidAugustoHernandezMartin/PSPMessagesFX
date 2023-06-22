@@ -5,7 +5,6 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
@@ -66,8 +65,7 @@
          <Font size="18.0" />
       </font>
    </Button>
-    <ImageView fitHeight="182.0" fitWidth="217.0" layoutX="570.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
-        <Image url="@../../../../../../ACapybaraPlaying.jpg" />
+    <ImageView fx:id="imageviewRegister" fitHeight="209.0" fitWidth="256.0" layoutX="531.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
     </ImageView>
     
 </AnchorPane>
