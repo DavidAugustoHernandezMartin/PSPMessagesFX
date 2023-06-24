@@ -2,6 +2,7 @@ package augusto.hernandez.messagesfx;
 
 import augusto.hernandez.messagesfx.models.responses.LoginResponse;
 import augusto.hernandez.messagesfx.utils.*;
+import javafx.fxml.Initializable;
 import org.json.JSONObject;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -13,9 +14,12 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.net.URL;
+import java.time.LocalDate;
+import java.util.ResourceBundle;
 
 
-public class Login {
+public class Login implements Initializable {
 
 
     @FXML
@@ -28,7 +32,7 @@ public class Login {
     public Hyperlink linkRegistro;
 
     @FXML
-    public void login(ActionEvent actionEvent) {
+    public void login(ActionEvent actionEvent){
         Stage stage = (Stage)((Node)actionEvent.getSource()).getScene().getWindow();
         try {
             JSONObject json =  new JSONObject();
@@ -71,6 +75,8 @@ public class Login {
         }
     }
 
+
+
     public void registro(ActionEvent actionEvent) {
         Stage stage = (Stage)((Node)actionEvent.getSource()).getScene().getWindow();
         try {
@@ -82,5 +88,10 @@ public class Login {
             MessageUtils.showError("Ocurrió un error el intentar cargar los datos: "+n.getMessage());
             n.printStackTrace();
         }
+    }
+
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+        MessageUtils.showMessage(LocalDate.now().toString());
     }
 }

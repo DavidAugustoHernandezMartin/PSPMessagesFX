@@ -1,8 +1,14 @@
 package augusto.hernandez.messagesfx.utils;
 
+import javafx.embed.swing.SwingFXUtils;
+import javafx.scene.image.Image;
+
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
 import java.io.*;
-import java.net.URL;
 import java.net.HttpURLConnection;
+import java.net.URL;
+import java.util.Base64;
 import java.util.StringJoiner;
 import java.util.zip.GZIPInputStream;
 
@@ -103,5 +109,23 @@ public class ServiceUtils {
             }
         }
         return result.toString();
+    }
+
+    public static String imageToBase64(Image image) throws IOException {
+
+        // Convertir la imagen de JavaFX a una BufferedImage
+        BufferedImage bImage = SwingFXUtils.fromFXImage(image, null);
+
+        // Crear un ByteArrayOutputStream
+        ByteArrayOutputStream s = new ByteArrayOutputStream();
+
+        // Escribir la BufferedImage en el ByteArrayOutputStream
+        ImageIO.write(bImage, "jpg", s);
+
+        // Convertir el ByteArrayOutputStream a un array de bytes
+        byte[] res  = s.toByteArray();
+
+        // Codificar el array de bytes a una cadena Base64 y regresarla
+        return Base64.getEncoder().encodeToString(res);
     }
 }
