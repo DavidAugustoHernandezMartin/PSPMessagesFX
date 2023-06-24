@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b916fa91-5a5c-4080-8bd4-ed0cd05b89cf" name="Changes" comment="Obteción de imagen y nombre de perfil completada.">
+    <list default="true" id="b916fa91-5a5c-4080-8bd4-ed0cd05b89cf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/Messages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/Messages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/utils/ServiceUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/utils/ServiceUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/MessagesResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/MessagesResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/UsersResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/models/responses/UsersResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/utils/GsonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/augusto/hernandez/messagesfx/utils/GsonService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/augusto/hernandez/messagesfx/messages.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/augusto/hernandez/messagesfx/messages.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1687445492366</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Avance en los datos de TableView">
+      <option name="closed" value="true" />
+      <created>1687612796417</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687612796417</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,7 +171,8 @@
     <MESSAGE value="Agregación de ServiceUtils" />
     <MESSAGE value="Lógica de obtención de datos remotos completada en login." />
     <MESSAGE value="Obteción de imagen y nombre de perfil completada." />
-    <option name="LAST_COMMIT_MESSAGE" value="Obteción de imagen y nombre de perfil completada." />
+    <MESSAGE value="Avance en los datos de TableView" />
+    <option name="LAST_COMMIT_MESSAGE" value="Avance en los datos de TableView" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -14,6 +14,9 @@ module augusto.hernandez.messagesfx {
     exports augusto.hernandez.messagesfx;
     opens augusto.hernandez.messagesfx.utils to javafx.fxml;
     exports augusto.hernandez.messagesfx.utils;
-    opens augusto.hernandez.messagesfx.models.responses to com.google.gson;
+    opens augusto.hernandez.messagesfx.models to com.google.gson,javafx.fxml;
+    exports augusto.hernandez.messagesfx.models;
+    opens augusto.hernandez.messagesfx.models.responses to com.google.gson,javafx.fxml;
     exports augusto.hernandez.messagesfx.models.responses;
+
 }
