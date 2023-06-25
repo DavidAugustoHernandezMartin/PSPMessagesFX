@@ -10,9 +10,9 @@ module augusto.hernandez.messagesfx {
     requires com.google.gson;
     requires java.desktop;
 
-    opens augusto.hernandez.messagesfx to javafx.fxml;
+    opens augusto.hernandez.messagesfx to javafx.fxml,org.controlsfx.controls,javafx.base,javafx.controls,javafx.graphics;
     exports augusto.hernandez.messagesfx;
-    opens augusto.hernandez.messagesfx.utils to javafx.fxml;
+    opens augusto.hernandez.messagesfx.utils to javafx.fxml,org.controlsfx.controls,javafx.base,javafx.controls,javafx.graphics;
     exports augusto.hernandez.messagesfx.utils;
     opens augusto.hernandez.messagesfx.models to com.google.gson,javafx.fxml;
     exports augusto.hernandez.messagesfx.models;

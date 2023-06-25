@@ -13,7 +13,17 @@ import java.util.StringJoiner;
 import java.util.zip.GZIPInputStream;
 
 public class ServiceUtils {
+    private static  String id = null;
     private static String token = null;
+
+    public static String getId() {
+        return id;
+    }
+
+    public static void setId(String id) {
+        ServiceUtils.id = id;
+    }
+
     private static String username = null;
     private  static  String image = null;
 

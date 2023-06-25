@@ -20,7 +20,7 @@
          <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
       </columnResizePolicy>
    </TableView>
-   <TextArea fx:id="textfieldMessage" disable="true" layoutX="67.0" layoutY="675.0" prefHeight="178.0" prefWidth="447.0" promptText="Write your message here...">
+   <TextArea fx:id="textfieldMessage" layoutX="67.0" layoutY="675.0" prefHeight="178.0" prefWidth="447.0" promptText="Write your message here...">
       <font>
          <Font size="18.0" />
       </font>
@@ -28,8 +28,8 @@
    <ImageView fx:id="imageviewMessage" fitHeight="118.0" fitWidth="152.0" layoutX="527.0" layoutY="678.0" opacity="0.2" pickOnBounds="true" preserveRatio="true">
       <Image url="@img/ACapybaraPlaying.jpg" />
    </ImageView>
-   <Button fx:id="buttonSelectMessageImage" disable="true" layoutX="525.0" layoutY="804.0" mnemonicParsing="false" onAction="#selectMessageImage" prefHeight="49.0" prefWidth="152.0" text="Select image" />
-   <Button fx:id="buttonSendMessage" disable="true" layoutX="757.0" layoutY="713.0" mnemonicParsing="false" onAction="#sendMessage" prefHeight="49.0" prefWidth="152.0" style="-fx-background-color: lightblue;" text="Send message" />
+   <Button fx:id="buttonSelectMessageImage" layoutX="525.0" layoutY="804.0" mnemonicParsing="false" onAction="#selectMessageImage" prefHeight="49.0" prefWidth="152.0" text="Select image" />
+   <Button fx:id="buttonSendMessage" layoutX="757.0" layoutY="713.0" mnemonicParsing="false" onAction="#sendMessage" prefHeight="49.0" prefWidth="152.0" style="-fx-background-color: lightblue;" text="Send message" />
    <TableView fx:id="tableviewYourMessages" layoutX="66.0" layoutY="136.0" prefHeight="200.0" prefWidth="842.0">
       <columns>
          <TableColumn fx:id="messageColumn" editable="false" prefWidth="75.0" sortable="false" text="Message" />
@@ -41,7 +41,7 @@
       </columnResizePolicy>
    </TableView>
    <Button fx:id="buttonChangeProfileImage" layoutX="225.0" layoutY="54.0" mnemonicParsing="false" onAction="#changeProfileImage" prefHeight="30.0" prefWidth="115.0" text="Change image" />
-   <Button fx:id="buttonDeleteMessage" disable="true" layoutX="411.0" layoutY="344.0" mnemonicParsing="false" onAction="#deleteMessage" prefHeight="49.0" prefWidth="152.0" style="-fx-background-color: lightblue;" text="Delete message" />
+   <Button fx:id="buttonDeleteMessage" layoutX="411.0" layoutY="344.0" mnemonicParsing="false" onAction="#deleteMessage" prefHeight="49.0" prefWidth="152.0" style="-fx-background-color: lightblue;" text="Delete message" />
    <Button fx:id="buttonRefreshData" layoutX="757.0" layoutY="79.0" mnemonicParsing="false" onAction="#refresh" prefHeight="49.0" prefWidth="152.0" text="Refresh" />
    <Label fx:id="labelUsername" layoutX="225.0" layoutY="28.0" text="name">
       <font>

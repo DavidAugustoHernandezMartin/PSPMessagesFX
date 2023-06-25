@@ -73,6 +73,7 @@ public class Register implements Initializable {
                         RegisterResponse response = GsonService.gson.fromJson(result, RegisterResponse.class);
                         if (response != null && response.ok) {
                             MessageUtils.showMessage("User registered: " + textfieldUserRegister.getText());
+                            clear();
                         } else if (response != null) {
                             MessageUtils.showError("Registration failed:\n " + response.error);
                         } else {
@@ -80,6 +81,7 @@ public class Register implements Initializable {
                         }
                     });
                     service.setOnFailed((event) -> {
+                        MessageUtils.showError("The connection to the server failed.");
                         disableFields(false);
                     });
                     service.start();
@@ -97,8 +99,23 @@ public class Register implements Initializable {
         buttonCancelRegistration.setDisable(disable);
         buttonSelectImageRegister.setDisable(disable);
     }
+
+    private void clear(){
+        textfieldPasswordRegister.clear();
+        textfieldUserRegister.clear();
+        textfieldPasswordRepeatRegister.clear();
+    }
     @FXML
     protected void selectImageRegister(ActionEvent actionEvent) {
+        Stage stage = (Stage)((Node)actionEvent.getSource()).getScene().getWindow();
+        Image selectedImage = FileUtils.selectImage(stage);
+        if(selectedImage != null){
+            try {
+                imageviewRegister.setImage(selectedImage);
+            }catch (Exception e){
+                MessageUtils.showError("Error while processing the picture: "+e.getMessage());
+            }
+        }
     }
 
     @Override

@@ -2,7 +2,6 @@ package augusto.hernandez.messagesfx;
 
 import augusto.hernandez.messagesfx.models.responses.LoginResponse;
 import augusto.hernandez.messagesfx.utils.*;
-import javafx.fxml.Initializable;
 import org.json.JSONObject;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -12,14 +11,11 @@ import javafx.scene.control.Hyperlink;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
-
 import java.io.IOException;
-import java.net.URL;
-import java.time.LocalDate;
-import java.util.ResourceBundle;
 
 
-public class Login implements Initializable {
+
+public class Login {
 
 
     @FXML
@@ -49,6 +45,7 @@ public class Login implements Initializable {
                         ServiceUtils.setToken(response.getToken());
                         ServiceUtils.setUsername(response.getName());
                         ServiceUtils.setImage(response.getImage());
+                        ServiceUtils.setId(response.getId());
                         ScreenLoader.loadScreen("/augusto/hernandez/messagesfx/messages.fxml", stage);
                         MessageUtils.showMessage("Welcome "+response.getName()+"!");
                     } catch (IOException e) {
@@ -90,8 +87,4 @@ public class Login implements Initializable {
         }
     }
 
-    @Override
-    public void initialize(URL url, ResourceBundle resourceBundle) {
-        MessageUtils.showMessage(LocalDate.now().toString());
-    }
 }

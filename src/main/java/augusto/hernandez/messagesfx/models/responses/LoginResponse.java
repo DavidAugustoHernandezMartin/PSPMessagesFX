@@ -1,7 +1,15 @@
 package augusto.hernandez.messagesfx.models.responses;
 
 public class LoginResponse extends OkResponse<ErrorResponse>{
-    private String token,name,image;
+    private String id,token,name,image;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
 
     public String getToken() {
         return this.token;
